@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wishes">
+
+    <ImageView
+        android:id="@+id/birthdayPix"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/images_3">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/HBD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@id/birthdayPix"
+        android:fontFamily="cursive"
+        android:paddingTop="20sp"
+        android:text="Happy Belated Birthday Blessing"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="35dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HBD"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="cursive"
+        android:text="From Mercy"
+        android:textColor="@android:color/white"
+        android:textSize="35dp">
+
+    </TextView>
+
+
+</RelativeLayout>
